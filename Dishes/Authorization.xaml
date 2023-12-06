@@ -1,0 +1,46 @@
+﻿<Window x:Class="Dishes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dishes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="143*"/>
+            <ColumnDefinition Width="17*"/>
+        </Grid.ColumnDefinitions>
+        <Image Margin="197,127,112,36" Source="/Rectangle 6.png" Stretch="Fill"/>
+        <Image Margin="20,15,565,294" Source="/logo 1.png" Stretch="Fill"/>
+        <Label Content="АВТОРИЗАЦИЯ" HorizontalAlignment="Left" Margin="295,152,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Arial Black" Height="38" Width="217"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="46" Margin="261,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="282"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="46" Margin="262,286,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="282"/>
+        <Label Content="Введите логин:" HorizontalAlignment="Left" Margin="258,191,0,0" VerticalAlignment="Top" FontSize="14" Height="29" Width="106"/>
+        <Label Content="Введите пароль:" HorizontalAlignment="Left" Margin="258,259,0,0" VerticalAlignment="Top" FontSize="14" Height="29" Width="115"/>
+        <Button Content="" HorizontalAlignment="Center" Height="45" Margin="0,37,0,0" VerticalAlignment="Top" Width="55" Click="Button_Click" Grid.Column="1">
+            <Button.Background>
+                <ImageBrush ImageSource="/admin.png" Stretch="None"/>
+            </Button.Background>
+            <Button.BorderBrush>
+                <ImageBrush ImageSource="/admin.png" Stretch="None"/>
+            </Button.BorderBrush>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="45" Margin="669,37,0,0" VerticalAlignment="Top" Width="55" BorderBrush="#FFFFFDFD" Grid.ColumnSpan="2">
+            <Button.Background>
+                <ImageBrush ImageSource="/korzina.png" Stretch="None"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="45" Margin="612,37,0,0" VerticalAlignment="Top" Width="55" BorderBrush="White">
+            <Button.Background>
+                <ImageBrush ImageSource="/adress.png" Stretch="None"/>
+            </Button.Background>
+        </Button>
+        <Button Content="ВОЙТИ" HorizontalAlignment="Left" Height="37" Margin="340,345,0,0" VerticalAlignment="Top" Width="120" Background="#FF498C51" BorderBrush="#FF498C51" FontSize="18" Foreground="White" Click="Button_Click_1"/>
+        <TextBox HorizontalAlignment="Left" Height="41" Margin="193,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="406" FontSize="22" FontFamily="Arial" FontWeight="Bold" BorderBrush="White">
+            <TextBox.Background>
+                <ImageBrush ImageSource="/Frame 1.png" Stretch="UniformToFill"/>
+            </TextBox.Background>
+        </TextBox>
+    </Grid>
+</Window>

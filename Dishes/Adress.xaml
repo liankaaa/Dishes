@@ -1,0 +1,50 @@
+﻿<Window x:Class="Dishes.Adress"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dishes"
+        mc:Ignorable="d"
+        Title="Adress" Height="450" Width="800">
+    <Grid>
+        <Image Margin="20,15,650,294" Source="/logo 1.png" Stretch="Fill" Width="130" Height="125"/>
+        <TextBox HorizontalAlignment="Left" Height="41" Margin="193,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="406" FontSize="22" FontFamily="Arial" FontWeight="Bold" BorderBrush="White">
+            <TextBox.Background>
+                <ImageBrush ImageSource="/Frame 1.png" Stretch="UniformToFill"/>
+            </TextBox.Background>
+        </TextBox>
+        <Button Content="" HorizontalAlignment="Left" Height="45" Margin="729,37,0,0" VerticalAlignment="Top" Width="55" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/admin.png" Stretch="None"/>
+            </Button.Background>
+            <Button.BorderBrush>
+                <ImageBrush ImageSource="/admin.png" Stretch="None"/>
+            </Button.BorderBrush>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="45" Margin="669,37,0,0" VerticalAlignment="Top" Width="55" BorderBrush="#FFFFFDFD" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/korzina.png" Stretch="None"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="45" Margin="612,37,0,0" VerticalAlignment="Top" Width="55" BorderBrush="White">
+            <Button.Background>
+                <ImageBrush ImageSource="/adress.png" Stretch="None"/>
+            </Button.Background>
+        </Button>
+        <Label Content="ПУНКТ ВЫДАЧИ" HorizontalAlignment="Left" Margin="309,102,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="22"/>
+        <Image Margin="372,155,47,30" Source="/Frame 4.png" Stretch="Fill"/>
+        <Image Margin="109,157,486,38" Source="/Rectangle 34.png" Stretch="Fill"/>
+        <Label Content="Пункт выдачи" HorizontalAlignment="Left" Margin="154,168,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16"/>
+        <Label Content="ул. Комсольмольская, 36" HorizontalAlignment="Left" Margin="122,0,0,0" VerticalAlignment="Center"/>
+        <Label Content="ул. Комсольмольская, 36" HorizontalAlignment="Left" Margin="122,235,0,0" VerticalAlignment="Top"/>
+        <Label Content="ул. Комсольмольская, 36" HorizontalAlignment="Left" Margin="121,266,0,0" VerticalAlignment="Top"/>
+        <Label Content="ул. Комсольмольская, 36" HorizontalAlignment="Left" Margin="121,297,0,0" VerticalAlignment="Top"/>
+        <Label Content="ул. Комсольмольская, 36" HorizontalAlignment="Left" Margin="121,328,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="13" Margin="282,0,0,0" VerticalAlignment="Center" Width="18"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="13" Margin="282,242,0,0" VerticalAlignment="Top" Width="18"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="13" Margin="282,272,0,0" VerticalAlignment="Top" Width="18"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="13" Margin="282,302,0,0" VerticalAlignment="Top" Width="18"/>
+        <CheckBox Content="CheckBox" Height="13" Margin="282,334,500,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
